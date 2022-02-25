@@ -1,0 +1,143 @@
+@charset "UTF-8";
+body {
+	color: #212121;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size: 14pt;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	background-image: url(images/background_italy.jpg);
+  }
+#container{
+	width: 768px;
+	height: auto;
+	background-color: white;
+	margin: auto;
+}
+aside {
+	width: 150px;
+	height: 1240px;
+	background-color: #048634;
+	float: left;
+}
+header {
+	
+	width: 768px;
+	height: 250px;
+	background-image: url(images/italy_header.svg);
+}
+main {
+	width: 578px;
+	height: 1200px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	float: left;
+	font-family: marigny, sans-serif;
+}
+footer {
+	background-color: #CC3333;
+	width: 768px;
+	height: 50px;
+	clear: both;	
+}
+h3 {
+	font-size: 16px;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+p {
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	font-size: 12pt;
+}
+h1 {
+	font-family: mokoko, serif;
+}
+img {
+	float: right;
+	padding-right: 25px;
+	padding-left: 10px;
+}
+.floatLeft {
+	float: left;
+	
+}
+
+#container main h1 {
+	color: #CC3333;
+}
+.submit_btn {
+	width: 93px;
+	height: 39px;
+	background-color: #CC3333;
+	border-radius: 10px;
+	color: #000000;
+	font-size: x-large;
+	-webkit-box-shadow: 6px 6px 24px;
+	box-shadow: 6px 6px 24px;
+}
+nav {
+	width: 768px;
+	height: 70px;
+}
+
+#container nav li {
+	display: block;
+	list-style-type: none;
+	float: left;
+	width: 80px;
+	margin-right: 66px;
+	font-family: dulcinea, sans-serif;
+	font-size: 35px;
+	font-weight: bold;
+	
+}
+
+article ul li {
+		padding-top: 5px;
+	padding-bottom: 10px;
+	margin: 20;
+	font-size: 12pt;
+	width: 576px;
+	text-align: left;
+		list-style-type: circle;
+	list-style-image: none;
+
+
+}
+#container nav ul {
+	margin: auto;
+	width: 440px;
+}
+a:link {
+	color: #CC3333;
+	text-decoration: none;
+	padding: 5px;
+}
+a:visited {
+	text-decoration: none;
+	color: #058534;
+}
+a:hover {
+	text-decoration: none;
+	color: #FBF7F7;
+	background-color: #CC3333;
+	padding: 5px;
+	border-radius: 20px;
+}
+a:active {
+	text-decoration: none;
+	color: #775858;
+}
+h2 {
+	color: #CC3333;
+	font-weight: bold;
+}
